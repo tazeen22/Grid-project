@@ -1,7 +1,6 @@
 body {
   font-family: "FoundersGroteskWeb-Light", Arial, Helvetica, sans-serif;
   background-color: #f8f5ec;
-  color: #000;
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -279,66 +278,13 @@ margin-left: 50px;
   .midword{
     font-size: 4rem;
   }
-  /* .container-2{
+  .container-2{
     margin-top: -3%;
-  } */
+  }
 
 }
 
-/* ------------------------------image-corosel ---------------------------- */
 
-
-.carousel-images {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-  width: 100%;
-}
-
-.carousel-slide {
-  position: relative;
-  min-width: 100%;
-  height: 100%;
-}
-
-.carousel-images img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.carousel-controls {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  transform: translateY(-50%);
-}
-
-.carousel-controls button {
-  background-color: rgba(0, 0, 0, 0.5);
-  border: none;
-  color: white;
-  padding: 10px;
-  cursor: pointer;
-}
-
-.carousel-controls button:hover {
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
-.content {
-  position: absolute;
-  bottom: 10%;
-  left: 5%;
-  width: 50%;
-  background-color: #cc964b;
-  color: #fff;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  z-index: 1; 
-}
 
 
 /*---------------------------------------- heading ------------------------------ */
@@ -359,7 +305,7 @@ margin-left: 50px;
   text-align: justify;
 }
 .midword{
-  font-size: 4rem;
+  font-size: 6rem;
 }
 .lastword{
   padding: 2em;
@@ -367,9 +313,12 @@ margin-left: 50px;
   text-align: justify;
 }
 
-.container-2 a{
+ a{
   color: white;
   text-align: left;
+}
+h1{
+  color: white;
 }
 .container-2 {
   display: grid;
@@ -393,7 +342,10 @@ video {
   height: 100%;
   object-fit: cover;
 }
-
+.container-2 a{
+  color: white;
+  text-align: left;
+}
 .box.box1 {
   grid-column-start: 3;
   grid-column-end: 5;
@@ -461,9 +413,12 @@ video {
   grid-column: 4;
   text-align: center;
   place-content: center;
-
+  
 }
-
+.box.box6 h1 ,a {
+  
+  color: #000;
+}
 
 
 .box.box7 {
@@ -652,7 +607,9 @@ background-size: cover;
   /* color: wheat; */
   background: #f8f5ec;
 }
-
+/* .box.box25 a , h1 {
+  color: #000;
+} */
 .box.box26 {
   grid-row-start: 13;
   grid-row-end: 15;
@@ -724,6 +681,13 @@ background-size: cover;
 .box.box36 {
   grid-row: 17;
   grid-column: 1;
+}
+
+
+@media screen and (max-width:1342px){
+  .box.box1 {
+    grid-row: 2;
+  }
 }
 @media screen and (max-width:930px) {
   
@@ -925,3 +889,4 @@ background-size: cover;
     }
 
 }
+  
