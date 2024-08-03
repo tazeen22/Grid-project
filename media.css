@@ -323,8 +323,9 @@ h1{
 .container-2 {
   display: grid;
   grid-template-columns:1fr 1fr 1fr 1fr;
-  grid-template-rows: repeat(19,335px);
+  grid-template-rows: repeat(18,335px);
   margin-top: -50.2%;
+  margin-bottom: 8%;
 
 }
 img{
